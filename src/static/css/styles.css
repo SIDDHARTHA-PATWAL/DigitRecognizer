@@ -75,7 +75,6 @@ input::after {
  opacity: .7;
  transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
 }
-/* Visit https://democoding.in/ for more free css animation */
 
 input:hover {
  color: var(--btn-color);
