@@ -44,5 +44,4 @@ def upload_file():
     predicted_digit = np.argmax(prediction_p)
     return render_template("result.html",predicted_digit=predicted_digit)
 
-if __name__ == '__main__':
-    app.run(debug=False)
+
