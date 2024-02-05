@@ -1,7 +1,7 @@
 Flask==2.1.0
 Pillow==8.3.2
 numpy
-tensorflow==2.5.0
-matplotlib==3.4.3
-opencv-python==4.5.3.56
+tensorflow
+matplotlib
+opencv-python
 gunicorn
