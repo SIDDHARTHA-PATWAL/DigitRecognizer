@@ -4,4 +4,4 @@ numpy
 tensorflow
 matplotlib
 opencv-python
-gunicorn
+Gunicorn
