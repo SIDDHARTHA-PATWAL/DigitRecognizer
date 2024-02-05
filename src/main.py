@@ -43,7 +43,6 @@ def upload_file():
     prediction_p = tf.nn.softmax(prediction)
     predicted_digit = np.argmax(prediction_p)
     return render_template("result.html",predicted_digit=predicted_digit)
-    return f"File uploaded successfully. Predicted digit: {predicted_digit}"
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
