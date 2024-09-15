@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIGIT RECOGNIZER</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/styles.css">
+
+</head>
+<body>
+<!--   <center>-->
+    <div id="login_box">
+        <h1>DIGIT RECOGNIZER</h1>
+        <div id ="user_input">
+            <h1>File Upload</h1>
+            <form action="/upload" method="post" enctype="multipart/form-data">
+                <input class="filechoose" type="file" name="file" accept=".png , .jpg"> <!-- Specify allowed file types if needed -->
+                <input class="submit" type="submit" value="Upload">
+            </form>
+    </div>
+        <p>PLEASE UPLOAD 28x28 PIXELS IMAGE FILE</p>
+    </div>
+
+
+<!--        </center>-->
+
+</body>
+
+</html>
