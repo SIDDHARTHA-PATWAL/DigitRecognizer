@@ -2,6 +2,7 @@ from flask import Flask, render_template, request ,  jsonify
 from PIL import Image
 import numpy as np
 import tensorflow as tf
+import os
 
 import tensorflow as tf
 import matplotlib.pyplot as plt
@@ -9,7 +10,7 @@ import numpy
 
 app = Flask(__name__)
 
-model = tf.keras.models.load_model("my_model.keras")
+model = tf.keras.models.load_model("handwritten_model.h5")
 
 @app.route('/')
 def home():
