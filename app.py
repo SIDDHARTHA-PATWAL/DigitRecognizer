@@ -65,3 +65,10 @@ def upload_file():
     except Exception as e:
         return f"Error processing the file: {str(e)}"
 
+if __name__ == "__main__":
+    # Read the port from environment variables or default to 8000
+    port = int(os.getenv('PORT', 8000))
+    
+    # Run the app on host '0.0.0.0' to make it publicly accessible
+    app.run(host='0.0.0.0', port=port, debug=False)
+
