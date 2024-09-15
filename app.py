@@ -65,5 +65,3 @@ def upload_file():
     except Exception as e:
         return f"Error processing the file: {str(e)}"
 
-if __name__ == "__main__":
-    app.run()
